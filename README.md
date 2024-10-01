@@ -10,7 +10,7 @@ Then clone the direcotry, cd into it, and update the calculation files and train
 
   - `python3 Read_calculations_combined_array.py`
   - `python3 calculations_read_obs.py`
-  - `python3 calculations_read_obs.py`
+  - `python3 emulator.py`
 
 
 Then run the widget locally by doing
