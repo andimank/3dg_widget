@@ -8,9 +8,9 @@ First install the streamlit package by doing
 
 Then clone the direcotry, cd into it, and update the calculation files and train the emulator by doing
 
-`python3 Read_calculations_combined_array.py`
-`python3 calculations_read_obs.py`
-`python3 calculations_read_obs.py`
+  -`python3 Read_calculations_combined_array.py`
+  -`python3 calculations_read_obs.py`
+  -`python3 calculations_read_obs.py`
 
 
 Then run the widget locally by doing
