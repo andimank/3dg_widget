@@ -401,7 +401,7 @@ def main():
     #make_plot_eta_zeta(params)
 
     st.header('How it works')
-    st.markdown('A description of the physics model and parameters can be found [here](https://indico.bnl.gov/event/6998/contributions/35770/attachments/27166/42261/JS_WS_2020_SIMS_v2.pdf).')
+    st.markdown('A description of the physics model and parameters can be found [here](https://arxiv.org/pdf/2203.04685).')
     st.markdown('The observables above (and additional ones not shown) are combined into [principal components](https://en.wikipedia.org/wiki/Principal_component_analysis) (PC).')
     st.markdown('A [Gaussian Process](https://en.wikipedia.org/wiki/Gaussian_process) (GP) is fitted to each of the dominant principal components by running our physics model on a coarse [space-filling](https://en.wikipedia.org/wiki/Latin_hypercube_sampling) set of points in parameter space.')
     st.markdown('The Gaussian Process is then able to interpolate between these points, while estimating its own uncertainty.')
