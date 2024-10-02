@@ -4,11 +4,17 @@
 
 First install the streamlit package by doing
 
-`pip install streamlit`
+`pip install streamlit==1.31.1`
 
-Then clone the directory, cd into it, and run the widget locally by doing
+Then clone the directory, cd into it, and update the calculation files and train the emulator by doing
+
+  - `python3 Read_calculations_combined_array.py`
+  - `python3 calculations_read_obs.py`
+  - `python3 emulator.py`
+
+Finally run the widget locally by doing
 
 `streamlit run widget_app.py`
 
 
-A browser should launch automatically displaying the widget with a default MAP parameter set
+A browser should launch automatically displaying the widget with a default maximum a posteriori (MAP) parameter set
