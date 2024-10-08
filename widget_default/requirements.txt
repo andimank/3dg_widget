@@ -7,4 +7,4 @@ cartopy
 scipy
 dill
 streamlit
-sklearn
+scikit-learn
