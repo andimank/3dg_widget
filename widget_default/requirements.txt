@@ -7,3 +7,4 @@ cartopy
 scipy
 dill
 streamlit
+sklearn
