@@ -4,10 +4,10 @@ import numpy as np
 import time
 import os
 import subprocess
-import matplotlib
+#import matplotlib
 import altair as alt
 import dill
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 from configurations import *
 #from configurations import do_transform_design
