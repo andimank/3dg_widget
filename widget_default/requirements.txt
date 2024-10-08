@@ -1,0 +1,9 @@
+numpy
+matplotlib
+shapely
+pyshp
+pyproj
+cartopy
+scipy
+dill
+streamlit
